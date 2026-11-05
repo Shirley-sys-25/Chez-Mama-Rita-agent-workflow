@@ -22,7 +22,7 @@ Trace des échanges clés avec l'agent (Claude) et des décisions prises. Les da
 - **PostgreSQL** retenu. Rendu limité à la **préparation + tests**.
 - Ton de la publication LinkedIn : **personnel et réflexif**.
 
-**Décision — les points que je ne comprenais pas.** J'ai demandé des explications avant de choisir :
+**Décision — les points techniques à trancher**. J’ai fait des recherches pour voir ce qui convenait le mieux au projet, selon la vision que j’en avais :
 - *Statut de commande* : règle retenue — ajout libre en « reçue », ajout seul en « en préparation » (annulation avec validation du gérant), verrouillage dès « prête ».
 - *WebSocket ou rafraîchissement* : **WebSocket** (Socket.IO), car la cuisine doit voir la commande instantanément.
 - *Tests* : **Vitest + Supertest**, avec au moins un test par fonctionnalité principale.
